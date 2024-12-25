@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0em;
+    padding: 0em;
+	
+}
+
+header, footer {
+    background-color: PowderBlue;
+    color: black;
+    padding: 1em;
+	border: solid black .1em;
+	border-radius: .75em;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+
+#logo-div {
+	position: absolute;
+	top: 1.3em;
+	right: 9em;
+}
+ #logo {
+	height: 9em;
+	width: 9em;
+ }
+
+nav ul {
+    list-style-type: none;
+    background-color: LightCyan;
+    text-align: center;
+    padding: 0.5rem 0;
+	border-radius: .5em;
+}
+
+nav ul li {
+    display: inline;
+	margin: 0em;
+	padding: 1em;
+}
+
+nav ul li a {
+	color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+	color: white;
+}
+
+#header-nav {
+	display: flex;
+	margin: 0em;
+	justify-content: center;
+}
+
+#header-nav ul{
+	list-style-type: none;
+	text-align: center;	
+}
+
+#header-nav ul li {
+	display: inline;
+	margin: 0em;
+	padding: .08em;
+
+}
+
+#header-nav ul li a {
+	text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+#header-nav ul li a:hover {
+	color: white;
+}
+
+main {
+    padding: 1em;
+	background-color: white;
+	
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+	gap: 1em;
+    justify-content: space-around;
+    align-items: center;
+	border-bottom: solid .1em black;	
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+h4 {
+	font-size: 1.25em;
+	text-decoration: underline;
+	margin-bottom: .5em;
+}
+
+p {
+	margin-top: 0;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+ol > li {
+	 margin-bottom: 1em;
+ }
+
+.content-left{
+	flex: 1;
+    padding: .5em;
+}
+
+.content-right{
+	flex: 1;
+	margin-left: 0em;
+	padding: .5em;
+}
+
+img {
+	flex:1;
+	width: 40em;
+	height: auto;
+	padding: .5em;
+	border-radius: 1em;
+}
+
+.image-right{
+	flex: 1;
+	margin-left: .5em;
+	float: right;
+}
+
+.image-left{
+	flex:1;
+	margin-right: .5em;
+	float: left;
+}
+
+
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+}

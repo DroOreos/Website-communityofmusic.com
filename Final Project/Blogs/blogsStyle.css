@@ -1,0 +1,211 @@
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: "Arial", "Verdana", sans-serif;
+	text-shadow: -5px -5px 1px #d7f3fc;
+}
+
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 1250px;
+	height: 9em;
+	width: 9em;
+}
+
+header, footer {
+    background-color: PowderBlue;
+    color: black;
+    padding: 1em;
+	border: solid black .1em;
+	border-radius: .75em;
+	text-align: center;
+	font-family: "Arial";
+}
+
+h1 {
+	font-size: 3em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+h2 {
+	font-size: 32px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: LightCyan;
+    text-align: center;
+    padding: 0.5rem 0;
+	border-radius: .5em;
+	font-family: "Arial", "Verdana", sans-serif;
+}
+
+nav ul li {
+    display: inline;
+	margin: 0em;
+	padding: 1em;
+}
+
+nav ul li a {
+	color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+	font-family: "Arial", "Verdana", sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+	border-radius: .5em;
+	color: white;
+}
+
+#headerNav {
+	display: flex;
+	margin: 0em;
+	justify-content: center;
+}
+
+#headerNav ul{
+	list-style-type: none;
+	text-align: center;	
+}
+
+#headerNav ul li {
+	display: inline;
+	margin: 0em;
+	padding: .08em;
+
+}
+
+#headerNav ul li a {
+	text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+#headerNav ul li a:hover {
+	color: white;
+}
+
+body {
+	background: linear-gradient(#d7f3fc, lightblue);
+	font-family: "Verdana", "Arial", sans-serif;
+}
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font: 18px Arial;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#topButton:hover {
+  background-color: orange;
+  color: white;
+}
+
+#blogSpace {
+	display:flex;
+	flex-wrap: wrap;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 15px;
+	border: 5px solid blue;
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.blogs {
+   padding: 20px;
+   box-shadow: 3px 3px 3px #5b83fc;
+   border: 1px solid #5b83fc;  
+   width: 400px;
+   margin-left: 100px;
+   margin-top: 16px;
+}   
+
+.userTag {
+	font-size: 12px;
+	color: #91908d;
+}
+
+.blogs p span {
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+.blogs li {
+	list-style-type:square;
+}
+
+footer {
+	color: black;
+	text-align: center;
+	padding-right: 10px;
+}
+
+body form {
+	padding-bottom: 20px;
+}
+
+#postForm {
+	font: 14px Arial;
+	background-color: #ededed;
+	padding-top: 3px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-right: 1000px;
+	border-radius: 10px;
+}
+
+label {
+	width: 70px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 8px;
+}
+
+input[type=text] select {
+	box-sizing: border-box;
+	width: 250px;
+	padding: 10px;   
+	border: 1px solid #edbc53;
+	border-radius: 4px;
+}
+
+input[type=submit] {
+	width: 150px;
+	background-color: #3a90e0;
+	color: white;
+	padding: 15px;
+	margin: 10px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: orange;
+}
+
+#reqField, label:before {
+	content: "*";
+	color: red;
+}

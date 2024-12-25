@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community of Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome, Community Of Music</h1>
+            <h2>Home Page</h2>
+        </div>
+        <button class="menu">☰</button>
+        <nav>
+            <ul>
+                <li><a href="../Blogs/blogs.html">Blogs</a></li>
+                <li><a href="../Downloads/downloads.html">Downloads</a></li>
+                <li><a href="../Art/art.html">Art</a></li>
+                <li><a href="../Recordings/Recordings.html">Recordings</a></li>
+                <li><a href="../Contact/contact.html">Contact Us</a></li>
+                <li><a href="../History/HistoryHome.html">History</a></li>
+            </ul>
+            <div id="logo-div">
+				<img src="logo.webp" id = "logo" alt="Community of Music logo">
+			</div>
+        </nav>
+    </header>
+    <main>
+        <div class="grid-container">
+            <div class="grid-item purpose">
+                <h3>Purpose of the Site:</h3>
+                <p>Connecting music lovers and creators worldwide. Click to learn more!</p>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>More About Our Purpose</h3>
+                <p>This community was founded to connect music enthusiasts around the globe. We provide a platform where artists can share their music, and fans can discover new sounds and inspirations. Join us to explore the diverse world of music, learn from each other, and grow together in harmony and creativity.</p>
+            </div>
+        </div>
+        <div class="music-discovery">
+            <h3>Explore Music Genres</h3>
+            <div id="genre-map" style="background-image: url('background.jpg');">
+                <div class="genre" style="position: absolute; top: 135px; left: 115px;" onclick="showDetails('Pop')">Pop</div>
+                <div class="genre" style="position: absolute; top: 320px; left: 250px;" onclick="showDetails('Rock')">Rock</div>
+                <div class="genre" style="position: absolute; top: 240px; left: 560px;" onclick="showDetails('Hip-Hop')">Hip-Hop</div>
+                <div class="genre" style="position: absolute; top: 80px; left: 650px;" onclick="showDetails('Rap')">Rap</div>
+            </div>
+            <div id="details-panel" style="display:none; position: fixed; bottom: 10px; right: 10px; background: white; padding: 20px; border-radius: 8px; width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+            </div>
+        </div>
+    </main>
+     <footer>
+        <p>&copy; 2024 Community of Music</p>
+    </footer>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>

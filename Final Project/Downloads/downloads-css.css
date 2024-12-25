@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(to right, black, blue);
+    color: white;
+}
+
+header img {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+header, footer {
+    background-color: PowderBlue;
+    color: black;
+    padding: 1em;
+	border: solid black .1em;
+	border-radius: .75em;
+	text-align: center;
+}
+
+header * {
+    display: inline;
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: LightCyan;
+    text-align: center;
+    padding: 0.5rem 0;
+	border-radius: .5em;
+}
+
+nav ul li {
+    display: inline;
+	margin: 0em;
+	padding: 1em;
+}
+
+nav ul li a {
+	color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+	color: white;
+}
+
+#header-nav {
+	display: flex;
+	margin: 0em;
+	justify-content: center;
+}
+
+#header-nav ul{
+	list-style-type: none;
+	text-align: center;	
+}
+
+#header-nav ul li {
+	display: inline;
+	margin: 0em;
+	padding: .08em;
+
+}
+
+#header-nav ul li a {
+	text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+#header-nav ul li a:hover {
+	color: white;
+}
+
+header li {
+    margin: 20px;
+}
+
+td img {
+    height: 300px;
+    width: 300px;
+}
+
+#logo-div {
+	position: absolute;
+	top: 6em;
+	right: 9em;
+}
+ #logo {
+	height: 8em;
+	width: 9em;
+ }
+
+ h1 {
+	font-size: 3em;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}

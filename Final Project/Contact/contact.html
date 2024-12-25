@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="../red-logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <header>
+            <h1>Community of Music</h1>
+            <nav id="nav">
+			    <ul>
+				    <li><a href="../Homepage/home.html">Home</a></li> 
+				    <li>|</li>
+				    <li><a href="../Blogs/blogs.html">Blogs</a></li>  
+				    <li>|</li>
+				    <li><a href="../Downloads/downloads.html">Downloads</a></li> 
+				    <li>|</li>
+				    <li><a href="../Art/art.html">Art</a></li> 
+				    <li>|</li>
+				    <li><a href="../Recordings/Recordings.html">Recordings</a></li> 
+				    <li>|</li>
+				    <li> <a href="../History/HistoryHome.html">History </a></li>
+				    <li>|</li>
+				    <li><a href="contact.html">Contact Us</a></li>
+			    </ul>
+                <div id="logo-div">
+                    <img src="../red-logo.png" id="logo" alt="Community of Music logo">
+                </div>
+            </nav>
+            
+        </header>
+        
+        <main>
+            <h2>Contact Us</h2>
+            <div>Let us know any comments, questions, or concerns that you may have! We love hearing from our users how we can improve our platform!</div>
+            <form id="contactForm" action="contact.html" method="POST" target="_blank">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </p>
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="emailError"></span>
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" cols="50" required></textarea>
+                    <span id="msgError"></span>
+                </p>
+                <p>
+                    <input type="submit">
+                </p>
+                <p id="submitMsg"></p>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Community of Music</p>
+        </footer>
+    </body>
+</html>
